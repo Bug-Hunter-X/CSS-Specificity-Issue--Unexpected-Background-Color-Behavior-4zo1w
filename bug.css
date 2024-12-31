@@ -1,0 +1,1 @@
+The CSS code has an unexpected behavior when a specific combination of selectors is used.  The element with the class "container" does not apply the background color as intended when the screen size is less than 768px. This occurs because the specificity of the CSS selectors results in the later, more specific rule overriding the earlier, more general one.
