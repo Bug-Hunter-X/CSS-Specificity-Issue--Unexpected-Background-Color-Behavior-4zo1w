@@ -1,0 +1,9 @@
+/* Corrected CSS to resolve the specificity issue */
+
+@media (max-width: 768px) {
+  .container {
+    background-color: lightblue !important; /* Using !important to override the more specific rule */
+  }
+}
+
+/* other styles remain unchanged */
